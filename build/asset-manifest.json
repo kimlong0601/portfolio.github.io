@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1b9475b.css",
+    "main.js": "/static/js/main.c7f8d5b5.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.0153fb5e5b5f697b4bcc.svg",
+    "static/media/project_2.PNG": "/static/media/project_2.e355bf2ec4e4c6d05938.PNG",
+    "static/media/boxicons.eot": "/static/media/boxicons.21f7c5dd64d88e1fc666.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.02aa967c5bfb9489501a.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.ad0ddae357213656b3e6.ttf",
+    "static/media/project_3.PNG": "/static/media/project_3.9c34e37eeaceb884ffcc.PNG",
+    "static/media/project_1.png": "/static/media/project_1.033dfebb923450441b79.png",
+    "static/media/CV_Trần Nguyễn Kim Long_Fresher React.pdf": "/static/media/CV_Trần Nguyễn Kim Long_Fresher React.e9449d488f54458a8798.pdf",
+    "static/media/me_1.jpg": "/static/media/me_1.153b2ba6f6ef3fbafb7c.jpg",
+    "static/media/avatar_1.png": "/static/media/avatar_1.3c8f57d33a087dbb6eb3.png",
+    "static/media/boxicons.woff2": "/static/media/boxicons.0335b427967c56248ea6.woff2",
+    "static/media/hero_banner.jpg": "/static/media/hero_banner.c2edc8851d8308a1208e.jpg",
+    "static/media/project_4.jpg": "/static/media/project_4.10fbad65cd5a009a1e6c.jpg",
+    "index.html": "/index.html",
+    "main.d1b9475b.css.map": "/static/css/main.d1b9475b.css.map",
+    "main.c7f8d5b5.js.map": "/static/js/main.c7f8d5b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b9475b.css",
+    "static/js/main.c7f8d5b5.js"
+  ]
+}
