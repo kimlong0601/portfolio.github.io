@@ -75,7 +75,7 @@ const Experiences = () => {
                 <i class='bx bxs-badge-check'></i> 
                 <div>
                   <h4>PHP</h4>
-                  <small className='text-light'>PHP</small>
+                  <small className='text-light'>Cơ bản</small>
                 </div>
               </article>
 

@@ -16,6 +16,9 @@ const Contact = () => {
             console.log(error.text);
         });
     };
+    function myFunction() {
+        alert("Gửi thành công!");
+    }
 
   return (
     <div className="contact">
@@ -45,14 +48,8 @@ const Contact = () => {
                     <input type="text" name='name' placeholder='Tên của bạn'/>
                     <input type="text" name='email' placeholder='Email của bạn'/>
                     <textarea rows="6" cols="50"  name='message' placeholder='Tin nhắn'></textarea>
-                    <button type="submit" value="send">Gửi</button>
+                    <button type="submit" value="send" onClick={myFunction}>Gửi</button>
                 </form>
-
-                <div className="toast">
-                    <div className="toast_content">
-                        
-                    </div>
-                </div>
             </div>
         </div>
     </div>

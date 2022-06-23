@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../../assets/images/avatar_1.png';
-import cv from '../../assets/images/CV_Trần Nguyễn Kim Long_Fresher React.pdf';
+import cv from '../../assets/images/CV_Trần Nguyễn Kim Long_Fresher ReactJS.pdf';
 
 const Home = () => {
   return (
@@ -32,9 +32,6 @@ const Home = () => {
                 </a>
                 <a href='https://www.instagram.com/kimlong_0601/'>
                   <i class='bx bxl-instagram'></i>
-                </a>
-                <a href='#'>
-                  <i class='bx bxl-twitter' ></i>
                 </a>
                 
               </div>

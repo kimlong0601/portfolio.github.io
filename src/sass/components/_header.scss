@@ -47,6 +47,7 @@
             .navbar_links:hover{
                 color: $main-color;
                 font-weight: bold;
+                cursor: pointer;
             }
             &_close{
                 display: none;

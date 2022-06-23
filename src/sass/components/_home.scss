@@ -117,5 +117,7 @@
             }
         }
     }
-
+    @include tablet{
+        height: 110vh;
+    }
 }

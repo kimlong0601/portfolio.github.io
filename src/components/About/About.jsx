@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-scroll';
 
 import avatar2 from '../../assets/images/me_1.jpg';
 
@@ -15,11 +16,17 @@ const About = () => {
                         <h1>Về tôi</h1>
                     </div>
                     <div className="about_details_desc">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Xin chào! Tôi là Long, tên đầy đủ là Trần Nguyễn Kim Long, hiện tại đã được 21 tuổi. Hiện tại tôi đang là một
+                        lập trình viên Fresher Frontend với đam mê, nhiệt huyết và tinh thần trách nhiệm cao trong công việc. Mục tiêu 
+                        ngắn hạn của tôi là có thể trở thành một Frontend Developer chuyên nghiệp và mục tiêu dài hạn là trở thành một Fullstack
+                        Developer chuyên nghiệp trong tương lai.
+                    </p>
 
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Xin cảm ơn bạn đã dành thời gian quý báu của mình để đọc qua profile của tôi, hiện tại tôi đang tìm kiếm một công việc với vị trí 
+                            Fresher Frontend (ReactJS). Nếu các bạn có hứng thú, hãy liên lạc với tôi ngay bên dưới nhé
+                        </p>
                     </div>
-                    <a href='#'>Liên hệ ngay</a>
+                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500} class="desc_btn">Liên hệ ngay</Link>
                 </div>
             </div>
         </div>

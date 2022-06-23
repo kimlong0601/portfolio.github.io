@@ -1,4 +1,5 @@
-import React , {useRef, useEffect} from 'react'
+import React , {useRef, useEffect} from 'react';
+import { Link } from 'react-scroll';
 
 const Header = () => {
 
@@ -35,11 +36,21 @@ const Header = () => {
             <div className="navbar_menu_close" onClick={menuToggle}>
               <i class='bx bx-x' ></i>
             </div>
-            <li><a href="Home" class="navbar_links">Trang chủ</a></li>
-            <li><a href="#" class="navbar_links">Về tôi</a></li>
-            <li><a href="#" class="navbar_links">Kinh nghiệm</a></li>
-            <li><a href="#" class="navbar_links">Dự án</a></li>
-            <li><a href="#" class="navbar_links">Liên hệ</a></li>
+            <li>
+              <Link to="hero_banner" spy={true} smooth={true} offset={50} duration={500} class="navbar_links">Trang chủ</Link>
+            </li>
+            <li>
+              <Link to="about" spy={true} smooth={true} offset={50} duration={500} class="navbar_links">Về tôi</Link>
+            </li>
+            <li>
+              <Link to="experience" spy={true} smooth={true} offset={50} duration={500} class="navbar_links">Kinh nghiệm</Link>
+            </li>
+            <li>
+              <Link to="project" spy={true} smooth={true} offset={50} duration={500} class="navbar_links">Dự án</Link>
+            </li>
+            <li>
+              <Link to="contact" spy={true} smooth={true} offset={50} duration={500} class="navbar_links">Liên hệ</Link>
+            </li>
           </ul>
         </div>
       </div>

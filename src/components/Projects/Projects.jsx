@@ -34,6 +34,18 @@ const Projects = () => {
                       <h2>Templates website Portfolio (hoàn thành)</h2>
                     </div>
                     <div className="box_btn">
+                      <div className="github"><a href="https://github.com/kimlong0601/portfolio.github.io">Github</a></div>
+                      <div className="view"><a href="https://kimlong0601.github.io/portfolio.github.io/">View</a></div>
+                    </div>
+                </div>
+                <div className="box_content">
+                    <div className="box_img">
+                      <img src={project4} alt="project file image" />
+                    </div>
+                    <div className="box_details">
+                      <h2>Template website trung tâm tiếng Anh (trong tiến trình)</h2>
+                    </div>
+                    <div className="box_btn">
                       <div className="github"><a href="#">Github</a></div>
                       <div className="view"><a href="#">View</a></div>
                     </div>
@@ -43,19 +55,7 @@ const Projects = () => {
                       <img src={project2} alt="project file image" />
                     </div>
                     <div className="box_details">
-                      <h2>Template website thương mại diện tử (trong tiến trình)</h2>
-                    </div>
-                    <div className="box_btn">
-                      <div className="github"><a href="#">Github</a></div>
-                      <div className="view"><a href="#">View</a></div>
-                    </div>
-                </div>
-                <div className="box_content">
-                    <div className="box_img">
-                      <img src={project4} alt="project file image" />
-                    </div>
-                    <div className="box_details">
-                      <h2>Template website trung tâm tiếng Anh (trong tiến trình)</h2>
+                      <h2>Template website thương mại điện tử (trong tiến trình)</h2>
                     </div>
                     <div className="box_btn">
                       <div className="github"><a href="#">Github</a></div>

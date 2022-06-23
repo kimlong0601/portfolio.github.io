@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -10,15 +11,15 @@ const Footer = () => {
             <p>Fresher Frontend Developer</p>
           </div>
           <ul className="footer_menu">
-            <li><a href="#"><i class='bx bxs-chevrons-right'></i>Home</a></li>
-            <li><a href="#"><i class='bx bxs-chevrons-right'></i>Về tôi</a></li>
-            <li><a href="#"><i class='bx bxs-chevrons-right'></i>Kinh nghiệm</a></li>
-            <li><a href="#"><i class='bx bxs-chevrons-right'></i>Dự án</a></li>
-            <li><a href="#"><i class='bx bxs-chevrons-right'></i>Liên hệ</a></li>
+            <li><Link to="hero_banner" spy={true} smooth={true} offset={50} duration={500}><i class='bx bxs-chevrons-right'></i>Home</Link></li>
+            <li><Link to="about" spy={true} smooth={true} offset={50} duration={500}><i class='bx bxs-chevrons-right'></i>Về tôi</Link></li>
+            <li><Link to="experience" spy={true} smooth={true} offset={50} duration={500}><i class='bx bxs-chevrons-right'></i>Kinh nghiệm</Link></li>
+            <li><Link to="project" spy={true} smooth={true} offset={50} duration={500}><i class='bx bxs-chevrons-right'></i>Dự án</Link></li>
+            <li><Link to="contact" spy={true} smooth={true} offset={50} duration={500}><i class='bx bxs-chevrons-right'></i>Liên hệ</Link></li>
           </ul>
           <ul className="footer_social">
-            <li><a href="#"><i class='bx bxl-facebook'></i>Facebook</a></li>
-            <li><a href="#"><i class='bx bxl-instagram'></i>Instagram</a></li>
+            <li><a href="https://www.facebook.com/kimlong.trannguyen.585"><i class='bx bxl-facebook'></i>Facebook</a></li>
+            <li><a href="https://www.instagram.com/kimlong_0601/"><i class='bx bxl-instagram'></i>Instagram</a></li>
             <li><a href="#"><i class='bx bxl-twitter' ></i>Twitter</a></li>
           </ul>
         </div>
