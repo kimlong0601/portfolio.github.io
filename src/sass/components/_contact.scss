@@ -1,0 +1,106 @@
+.contact{
+    width: 100%;
+    background-color: $main-bg;
+    height: 90vh;
+    position: relative;
+    margin-top: 100px;
+    
+        .contact_title{
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+            color: $main-color;
+        }
+        .contact_area{
+            width: 60%;
+            position: absolute;
+            top: 10%;
+            left: 20%;
+            @include flex(center,center);
+            align-items: flex-start;
+            .contact_box{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                .box{
+                    width: 200px;
+                    height: 150px;
+                    background-color: $main-color;
+                    box-shadow: $box-shadow;
+                    border-radius: 10px;
+                    margin: 10px;
+                    display: grid;
+                    font-size: 1.2rem;
+                    @include flex(center,center);
+                    flex-direction: column;
+                    color: $text-white;
+                    transition: 0.5s ease;
+                    i{
+                        font-size: 2.5rem;
+                        margin: 10px 0;
+                    }
+                }
+                .box:hover{
+                    transform: translateY(-10px);
+                    transition: transform 0.5s ease;
+                }
+            }
+            form{
+                display: grid;
+                width: 100%;
+                grid-template-columns: 1fr;
+                input, textarea{
+                    border-radius: 10px;
+                    border: 1px solid $main-color;
+                    padding: 10px;
+                    margin: 15px;
+                    width: 400px;
+                    height: 50px;
+                }
+                textarea{
+                    height: 100px;
+                }
+                button{
+                    width: 120px;
+                    height: 40px;
+                    margin: 15px;
+                    border-radius: 10px;
+                    background-color: $main-color;
+                    border: none;
+                    font-size: 1.2rem;
+                    transition: 0.5s ease;
+                }
+                button:hover{
+                    width: 130px;
+                    height: 45px;
+                    font-weight: bold;
+                    color: $text-white;
+                    cursor: pointer;
+                    transition: width height 0.5s ease;
+                }
+            }
+        }
+        
+        @include tablet{
+            height: 140vh;
+            .contact_title{
+                margin: 0;
+            }
+            .contact_area{
+                width: 98%;
+                top: 0;
+                left: 0;
+                flex-direction: column;
+                .contact_box{
+                    @include flex(center,center);
+                    flex-direction: column;
+                    margin-top: 30px;
+                }
+                .contact_input{
+                    input, textarea{
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
