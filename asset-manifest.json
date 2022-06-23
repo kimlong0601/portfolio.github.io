@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.d1afa2b2.css",
-    "main.js": "/portfolio.github.io/static/js/main.12ae1eb1.js",
+    "main.css": "/portfolio.github.io/static/css/main.446fd502.css",
+    "main.js": "/portfolio.github.io/static/js/main.e5806ae2.js",
     "static/media/boxicons.svg": "/portfolio.github.io/static/media/boxicons.0153fb5e5b5f697b4bcc.svg",
     "static/media/project_2.PNG": "/portfolio.github.io/static/media/project_2.e355bf2ec4e4c6d05938.PNG",
     "static/media/boxicons.eot": "/portfolio.github.io/static/media/boxicons.21f7c5dd64d88e1fc666.eot",
@@ -9,18 +9,18 @@
     "static/media/boxicons.ttf": "/portfolio.github.io/static/media/boxicons.ad0ddae357213656b3e6.ttf",
     "static/media/project_3.PNG": "/portfolio.github.io/static/media/project_3.9c34e37eeaceb884ffcc.PNG",
     "static/media/project_1.png": "/portfolio.github.io/static/media/project_1.033dfebb923450441b79.png",
-    "static/media/CV_Trần Nguyễn Kim Long_Fresher React.pdf": "/portfolio.github.io/static/media/CV_Trần Nguyễn Kim Long_Fresher React.e9449d488f54458a8798.pdf",
+    "static/media/CV_Trần Nguyễn Kim Long_Fresher ReactJS.pdf": "/portfolio.github.io/static/media/CV_Trần Nguyễn Kim Long_Fresher ReactJS.736f42ddf4f66cedf328.pdf",
     "static/media/me_1.jpg": "/portfolio.github.io/static/media/me_1.153b2ba6f6ef3fbafb7c.jpg",
     "static/media/avatar_1.png": "/portfolio.github.io/static/media/avatar_1.3c8f57d33a087dbb6eb3.png",
     "static/media/boxicons.woff2": "/portfolio.github.io/static/media/boxicons.0335b427967c56248ea6.woff2",
     "static/media/hero_banner.jpg": "/portfolio.github.io/static/media/hero_banner.c2edc8851d8308a1208e.jpg",
     "static/media/project_4.jpg": "/portfolio.github.io/static/media/project_4.10fbad65cd5a009a1e6c.jpg",
     "index.html": "/portfolio.github.io/index.html",
-    "main.d1afa2b2.css.map": "/portfolio.github.io/static/css/main.d1afa2b2.css.map",
-    "main.12ae1eb1.js.map": "/portfolio.github.io/static/js/main.12ae1eb1.js.map"
+    "main.446fd502.css.map": "/portfolio.github.io/static/css/main.446fd502.css.map",
+    "main.e5806ae2.js.map": "/portfolio.github.io/static/js/main.e5806ae2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1afa2b2.css",
-    "static/js/main.12ae1eb1.js"
+    "static/css/main.446fd502.css",
+    "static/js/main.e5806ae2.js"
   ]
 }
