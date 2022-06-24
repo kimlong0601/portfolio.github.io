@@ -82,7 +82,7 @@ const Experiences = () => {
               <article className='experience_details'>
                 <i class='bx bxs-badge-check'></i> 
                 <div>
-                  <h4>MySQL</h4>
+                  <h4>SQL</h4>
                   <small className='text-light'>Trung Bình</small>
                 </div>
               </article>
