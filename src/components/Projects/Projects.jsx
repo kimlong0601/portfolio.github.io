@@ -50,18 +50,6 @@ const Projects = () => {
                       <div className="view"><a href="#">View</a></div>
                     </div>
                 </div>
-                <div className="box_content">
-                    <div className="box_img">
-                      <img src={project2} alt="project file image" />
-                    </div>
-                    <div className="box_details">
-                      <h2>Template website thương mại điện tử (trong tiến trình)</h2>
-                    </div>
-                    <div className="box_btn">
-                      <div className="github"><a href="#">Github</a></div>
-                      <div className="view"><a href="#">View</a></div>
-                    </div>
-                </div>
                 
             </div>
         </div>
