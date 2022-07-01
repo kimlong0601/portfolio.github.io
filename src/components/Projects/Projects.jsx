@@ -3,7 +3,7 @@ import React from 'react'
 import project1 from '../../assets/images/project_1.png';
 import project2 from '../../assets/images/project_2.PNG';
 import project3 from '../../assets/images/project_3.PNG';
-import project4 from '../../assets/images/project_4.jpg';
+import project4 from '../../assets/images/project_4.PNG';
 
 const Projects = () => {
   return (
@@ -43,7 +43,7 @@ const Projects = () => {
                       <img src={project4} alt="project file image" />
                     </div>
                     <div className="box_details">
-                      <h2>Template website trung tâm tiếng Anh (trong tiến trình)</h2>
+                      <h2>Template website Burger Company (trong tiến trình)</h2>
                     </div>
                     <div className="box_btn">
                       <div className="github"><a href="#">Github</a></div>
