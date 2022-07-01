@@ -46,7 +46,7 @@ const Projects = () => {
                       <h2>Template website Burger Company (trong tiến trình)</h2>
                     </div>
                     <div className="box_btn">
-                      <div className="github"><a href="#">Github</a></div>
+                      <div className="github"><a href="https://github.com/kimlong0601/burger_company">Github</a></div>
                       <div className="view"><a href="#">View</a></div>
                     </div>
                 </div>
