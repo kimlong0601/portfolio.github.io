@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.3748bd34.css",
-    "main.js": "/portfolio.github.io/static/js/main.62ed12a0.js",
+    "main.css": "/portfolio.github.io/static/css/main.710a4dc5.css",
+    "main.js": "/portfolio.github.io/static/js/main.5a5fce04.js",
     "static/media/boxicons.svg": "/portfolio.github.io/static/media/boxicons.0153fb5e5b5f697b4bcc.svg",
     "static/media/project_2.PNG": "/portfolio.github.io/static/media/project_2.e355bf2ec4e4c6d05938.PNG",
     "static/media/boxicons.eot": "/portfolio.github.io/static/media/boxicons.21f7c5dd64d88e1fc666.eot",
@@ -11,16 +11,16 @@
     "static/media/project_1.png": "/portfolio.github.io/static/media/project_1.033dfebb923450441b79.png",
     "static/media/avatar_1.png": "/portfolio.github.io/static/media/avatar_1.14fec7e5385e920433fe.png",
     "static/media/project_4.PNG": "/portfolio.github.io/static/media/project_4.c507d3aaa8e2a07ad199.PNG",
-    "static/media/CV_Trần Nguyễn Kim Long_Fresher Frontend.pdf": "/portfolio.github.io/static/media/CV_Trần Nguyễn Kim Long_Fresher Frontend.24221e26c932073ae9a5.pdf",
     "static/media/me_1.jpg": "/portfolio.github.io/static/media/me_1.153b2ba6f6ef3fbafb7c.jpg",
     "static/media/boxicons.woff2": "/portfolio.github.io/static/media/boxicons.0335b427967c56248ea6.woff2",
+    "static/media/CV_TranNguyenKImLong_Frontend.pdf": "/portfolio.github.io/static/media/CV_TranNguyenKImLong_Frontend.3892d0a2037a7fa7bf82.pdf",
     "static/media/hero_banner.jpg": "/portfolio.github.io/static/media/hero_banner.c2edc8851d8308a1208e.jpg",
     "index.html": "/portfolio.github.io/index.html",
-    "main.3748bd34.css.map": "/portfolio.github.io/static/css/main.3748bd34.css.map",
-    "main.62ed12a0.js.map": "/portfolio.github.io/static/js/main.62ed12a0.js.map"
+    "main.710a4dc5.css.map": "/portfolio.github.io/static/css/main.710a4dc5.css.map",
+    "main.5a5fce04.js.map": "/portfolio.github.io/static/js/main.5a5fce04.js.map"
   },
   "entrypoints": [
-    "static/css/main.3748bd34.css",
-    "static/js/main.62ed12a0.js"
+    "static/css/main.710a4dc5.css",
+    "static/js/main.5a5fce04.js"
   ]
 }
