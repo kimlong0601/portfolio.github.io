@@ -14,55 +14,65 @@
         }
         h1{
             margin: 10px 0;
+            text-transform: uppercase;
             color: $main-color;
         }
     }
     .experience_box{
-        @include flex(center,center);
         width: 100%;
-        height: 100%;
-        margin-top: 20px;
-        .frontend_box, .backend_box{
-            padding: 2.5rem 3rem;
-            border-radius: 2rem;
-            border: 1px solid $main-color;
-            margin: 0 40px;
-            font-size: 1.2rem;
-            transition: 0.6s ease;
-            h3{
-                text-align: center;
-                margin-bottom: 2rem;
-                color: $main-color;
+        @include flex(center,space-between);
+        padding: 40px 20px;
+        .box_1{
+            text-align: center;
+            h2{
+                padding: 15px 0;
+                text-transform: uppercase;
             }
-            .experience_content{
-                display: grid;
-                grid-template-columns:1fr 1fr;
-                row-gap: 3rem;
-                .experience_details{
-                    display: flex;
-                    gap: 10px;
-                    margin: 0 20px;
-                    h4{
-                        text-transform: uppercase;
-                    }
-                }
+            i{
+                font-size: 100px;
+                transition: 0.5s ease;
+            }
+            i:hover{
+                transform: translateY(-10px);
+                transition: transform 0.5s ease;
+                cursor: pointer;
+                
+            }
+            
+        }
+        .box_1:nth-child(1){
+            i:hover{
+                color: #ff3300;
+                transition: 0.4s ease;
             }
         }
-        .frontend_box:hover, .backend_box:hover{
-            background-color: $main-color;
-            color: $text-white;
-            transition: 0.6s ease;
-            h3{
-                color:$text-white;
+        .box_1:nth-child(2){
+            i:hover{
+                color: #0066ff;
+                transition: 0.4s ease;
+            }
+        }
+        .box_1:nth-child(3){
+            i:hover{
+                color: $main-color;
+                transition: 0.4s ease;
+            }
+        }
+        .box_1:nth-child(4){
+            i:hover{
+                color: #3399ff;
+                transition: 0.4s ease;
+            }
+        }
+        .box_1:nth-child(5){
+            i:hover{
+                color: $main-color;
+                transition: 0.4s ease;
             }
         }
         @include tablet{
             display: grid;
-            grid-template-columns: 1fr;
-            .frontend_box, .backend_box{
-                width: 90%;
-                margin: 10px auto;
-            }
+            grid-template-columns: 1fr 1fr;
         }
     }
     @include tablet{

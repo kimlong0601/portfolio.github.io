@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../../assets/images/avatar_1.png';
-import cv from '../../assets/images/CV_Trần Nguyễn Kim Long_Fresher Frontend.pdf';
+import cv from '../../assets/images/CV_TranNguyenKImLong_Frontend.pdf';
 
 const Home = () => {
   return (
